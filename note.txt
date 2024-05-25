@@ -1,0 +1,4 @@
+# Modules ES6
+
+1. On constate que la ligne qui nous permetter d'afficher la variable counter déclenche maintenant une erreur. Normale la variable n'existe pas.
+2. On a une erreur car application.js essaie d'importer la variable counter (qui est maintenant non exporté) et non getCounter().
